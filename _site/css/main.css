@@ -48,12 +48,13 @@ a img {
 /*Global Styles*/
 body {
   background-color: black;
+  font-family: Work Sans, helvetica, arial;
 }
 /*Callout Styles*/
 .home-body {
-  margin: 15vh auto ;
+  margin: 15vh 15vw;
   text-align: center;
-  width: 60%;
+  width: auto;
   height: auto;
   position: relative;
   display: flex;
@@ -62,24 +63,33 @@ body {
   width: 40vw;
   float: right;
   flex: 1;
+  min-width: 40vw;
+  margin-left: 1.5em;
+  line-height: 1.5;
+  text-align: left;
 }
 .callout-title h1 {
   color: #FFF;
+  font-size: 2em;
+  padding-bottom: 0.5em;
+  font-weight: bold;
 }
 .callout-para p {
-  color: #FFF;
+  color: #9b9c9d;
+  font-size: 21px;
+}
+.callout-para > p {
+  padding-bottom: 21px;
 }
 /*Logo Style*/
 .logo {
   height: 35vh;
   width: 35vh;
   display: inline-block;
-  flex: 1;
 }
 .logo img {
   height: 80%;
   border-radius: 10px;
   display: block;
-  margin:auto;
 }
 
